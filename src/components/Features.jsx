@@ -1,7 +1,13 @@
 import React from "react";
 
 const Features = () => {
-  return <div>Features</div>;
+  return (
+    <section className="h-full common-padding bg-zinc relative overflow-hidden">
+      <div className=" screen-max-width">
+        <div></div>
+      </div>
+    </section>
+  );
 };
 
 export default Features;
